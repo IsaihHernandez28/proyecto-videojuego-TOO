@@ -7,18 +7,18 @@ public class Soldier extends Person
     public void act()
     {
         move();
+        setImage("Soldier1.png");
     }
 
     public void move()
     {
-        if (Greenfoot.isKeyDown("up")) {
-            setLocation(getX(), getY() - velocidad); // Mover hacia arriba
-        } else if (Greenfoot.isKeyDown("down")) {
-            setLocation(getX(), getY() + velocidad); // Mover hacia abajo
-        } else if (Greenfoot.isKeyDown("left")) {
+        if (Greenfoot.isKeyDown("left")) {
             setLocation(getX() - velocidad, getY()); // Mover hacia la izquierda
         } else if (Greenfoot.isKeyDown("right")) {
             setLocation(getX() + velocidad, getY()); // Mover hacia la derecha
+        }
+        if (Greenfoot.isKeyDown("space")){
+            setLocation(getY() + velocidad, getX());
         }
     }
 }
