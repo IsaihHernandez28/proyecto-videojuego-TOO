@@ -1,16 +1,16 @@
 #Greenfoot project file
 class.LevelOne.image=MetalSlug4-Mission2.jpg
-class.Soldier.image=Soldier1.png
+class.Soldier.image=0.png
 dependency1.from=Level
 dependency1.to=Soldier
 dependency1.type=UsesDependency
 dependency2.from=Menu
 dependency2.to=LevelOne
 dependency2.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=784
+editor.fx.0.width=1382
+editor.fx.0.x=-8
+editor.fx.0.y=-8
 height=784
 package.numDependencies=2
 package.numTargets=13
